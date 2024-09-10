@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/adviice-generator-app-gjwGmwZ7S_](https://www.frontendmentor.io/solutions/adviice-generator-app-gjwGmwZ7S_)
 - Live Site URL: [https://advice-generator-3301.netlify.app/](https://advice-generator-3301.netlify.app/)
 
 ## My process
