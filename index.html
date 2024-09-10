@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./src/stylesheet/style.css">
+  <title> Advice generator app </title>
+</head>
+<body class="bg-darkBlue p-8">
+
+  <main class="h-[100vh] flex justify-center items-center">
+    <div class="bg-darkGrayishBlue p-8 max-w-[500px] rounded-lg relative">
+      <!-- this part contains the advice -->
+      <div>
+        <header>
+          <p class="text-neonGreen tracking-[.25em] text-center mb-4">ADVICE #<span id="adviceId"></span></p>
+        </header>
+        <article>
+          <p class="text-center text-white text-[28px] manrope-font opacity-80">
+            <span class="text-3xl inline-block">&ldquo;</span>
+            <span id="adviceContainer"></span>
+            <span class="text-3xl inline-block">&rdquo;</span>
+          </p>
+        </article>
+      </div>
+      
+      <!-- divider -->
+      <img id="dividerImg" src="./images/pattern-divider-desktop.svg" alt="divider-logo" class="mt-6 w-full mb-8">
+      
+
+      <!-- dice -->
+      <div id="dice" class="bg-neonGreen neon-effect w-max rounded-full absolute left-1/2 -translate-x-1/2 hover:cursor-pointer">
+        <img src="./images/icon-dice.svg" alt="dice-img" class="p-4">
+      </div>
+    </div>
+  </main>
+
+  <script type="module" src="./src/script/loadAdvice.js" defer></script>
+  <script type="module" src="./src/script/diceEventHandler.js"></script>
+  <script type="module" src="./src/script/loadDivider.js"></script>
+</body>
+</html>
